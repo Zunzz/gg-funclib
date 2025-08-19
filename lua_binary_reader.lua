@@ -37,7 +37,7 @@ function init_lua_binary_reader(binary)
     function lua_binary_reader:read_str()
         local str_len = self:read_32()
         local str = self.binary:sub(self.current_position, self.current_position + str_len - 1)
-        lua_binary_reader.current_position = self.current_position + str_len
+        self.current_position = self.current_position + str_len
         return str
     end
     
