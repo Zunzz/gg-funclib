@@ -1,2 +1,2 @@
-# gg-hooklib
-A library for Game Guardian that allows creating hooks in native functions.
+# gg-funclib
+A library created for Game Guardian that enables native function calls and hooking.
